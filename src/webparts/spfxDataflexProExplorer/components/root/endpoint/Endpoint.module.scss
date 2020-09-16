@@ -1,0 +1,9 @@
+@import '../../../Theme.module.scss';
+
+/** エンドポイントの指定コンポーネント */
+.endpoint {
+    /** エンドポイントURL入力フィールド */
+    .endpointUrl {
+        width: 100%;
+    }
+}

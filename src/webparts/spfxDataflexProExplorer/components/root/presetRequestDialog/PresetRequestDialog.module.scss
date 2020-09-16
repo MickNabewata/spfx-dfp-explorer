@@ -1,0 +1,11 @@
+@import '../../../Theme.module.scss';
+
+/** サンプルリクエストダイアログコンポーネント */
+.presetRequestDialog {
+    width: 90vw;
+    min-height: 60vh;
+    max-height: 90vh;
+    padding: 0px 20px 10px 20px;
+    border-top: 3px solid;
+    border-color: '[theme: themeDark]';
+}
