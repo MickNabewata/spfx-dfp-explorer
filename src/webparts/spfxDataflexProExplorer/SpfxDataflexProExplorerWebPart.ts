@@ -98,9 +98,4 @@ export default class SpfxDataflexProExplorerWebPart extends BaseClientSideWebPar
   protected onDispose(): void {
     ReactDom.unmountComponentAtNode(this.domElement);
   }
-
-  /** データバージョン取得 */
-  protected get dataVersion(): Version {
-    return Version.parse('1.0');
-  }
 }

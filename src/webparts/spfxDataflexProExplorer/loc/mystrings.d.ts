@@ -32,7 +32,22 @@ declare interface ISpfxDataflexProExplorerWebPartStrings {
   presetRequestButtonTitle: string;
   /** サンプルリクエストダイアログのタイトル */
   presetRequestDialogTitle: string;
-
+  /** サンプルリクエスト 環境 カテゴリ */
+  presetRequestEnvironmentCategory: string;
+  /** サンプルリクエスト 環境一覧取得 タイトル */
+  presetRequestListEnvironmentTitle: string;
+  /** サンプルリクエスト 環境一覧取得 説明 */
+  presetRequestListEnvironmentDescription: string;
+  /** サンプルリクエスト エンティティ カテゴリ */
+  presetRequestEntityCategory: string;
+  /** サンプルリクエスト エンティティ一覧取得 タイトル */
+  presetRequestListEntityTitle: string;
+  /** サンプルリクエスト エンティティ一覧取得 説明 */
+  presetRequestListEntityDescription: string;
+  /** サンプルリクエスト エンティティ詳細取得 タイトル */
+  presetRequestGetEntityTitle: string;
+  /** サンプルリクエスト エンティティ詳細取得 説明 */
+  presetRequestGetEntityDescription: string;
 }
 
 /** locフォルダ配下で定義したローカライズ用ファイルの読取結果 */

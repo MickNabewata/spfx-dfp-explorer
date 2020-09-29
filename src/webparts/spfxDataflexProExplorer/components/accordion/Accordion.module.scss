@@ -1,0 +1,11 @@
+@import '../../Theme.module.scss';
+
+.accordion {
+  margin: auto !important;
+  border: 1px solid;
+  border-color: '[theme: themeLight]';
+
+  .summary {
+    background-color: '[theme: themeLighter]';
+  }
+}

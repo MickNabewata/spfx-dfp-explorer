@@ -15,6 +15,14 @@ define([], function() {
     'responseBodyPivotLabel': '応答本文',
     'responseHeadersPivotLabel': '応答ヘッダ',
     'presetRequestButtonTitle': 'サンプルリクエスト',
-    'presetRequestDialogTitle': 'サンプルリクエスト'
+    'presetRequestDialogTitle': 'サンプルリクエスト',
+    'presetRequestEnvironmentCategory': '環境',
+    'presetRequestListEnvironmentTitle': '一覧',
+    'presetRequestListEnvironmentDescription': '環境の一覧を取得します。',
+    'presetRequestEntityCategory': 'エンティティ',
+    'presetRequestListEntityTitle': '一覧',
+    'presetRequestListEntityDescription': 'エンティティの一覧を取得します。',
+    'presetRequestGetEntityTitle': '取得',
+    'presetRequestGetEntityDescription': '指定したエンティティの詳細を取得します。このサンプルでは「accounts」エンティティを取得します。',
   }
 });

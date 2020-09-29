@@ -15,6 +15,14 @@ define([], function() {
     'responseBodyPivotLabel': 'Response body',
     'responseHeadersPivotLabel': 'Response header',
     'presetRequestButtonTitle': 'Preset requests',
-    'presetRequestDialogTitle': 'Preset requests'
+    'presetRequestDialogTitle': 'Preset requests',
+    'presetRequestEnvironmentCategory': 'Environment',
+    'presetRequestListEnvironmentTitle': 'LIST',
+    'presetRequestListEnvironmentDescription': 'List your Dataflex Pro environments.',
+    'presetRequestEntityCategory': 'Entity',
+    'presetRequestListEntityTitle': 'LIST',
+    'presetRequestListEntityDescription': 'List your Dataflex Pro entities.',
+    'presetRequestGetEntityTitle': 'GET',
+    'presetRequestGetEntityDescription': 'Get the metadata of the specific entity.This sample works for the Accounts entity.',
   }
 });
