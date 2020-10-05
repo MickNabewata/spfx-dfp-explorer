@@ -1,5 +1,7 @@
 # spfx-dfp-explorer
 
+[日本語](https://github.com/MickNabewata/spfx-dfp-explorer/blob/master/README.md)
+
 ## Summary
 
 A tool for testing API execution against Dataflex Pro (formerly Common Data Services).   
