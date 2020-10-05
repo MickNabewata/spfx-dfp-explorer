@@ -1,73 +1,40 @@
 # spfx-dfp-explorer
 
-## Summary
+## 概要
 
-Short summary on functionality and used technologies.
+Dataflex Pro (旧名：Common Data Services) に対するAPI実行をテストするためのツールです。   
+サンプルのリクエストもいくつか含まれています。
 
-[picture of the solution in action, if possible]
+## SharePoint Frameworkバージョン
 
-## Used SharePoint Framework Version
+![バージョン](https://img.shields.io/badge/version-1.11-green.svg)
 
-![version](https://img.shields.io/badge/version-1.11-green.svg)
+## 動作確認方法
 
-## Applies to
-
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
-
-## Prerequisites
-
-> Any special pre-requisites?
-
-## Solution
-
-Solution|Author(s)
---------|---------
-folder name | Author details (name, company, twitter alias with link)
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Minimal Path to Awesome
-
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
+- このリポジトリをクローンします。
+- コマンドプロンプトを起動し、クローンしたリポジトリのフォルダに移動します。
+- 以下コマンドを実行します。
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
+## インストール方法
 
-## Features
+1. Azure管理ポータルにアクセスし、Azure Active Directory > アプリの登録 画面 > すべてのアプリケーション タブ で「SharePoint Online Client Extensibility Web Application Principal」を選択します。   
+1. APIのアクセス許可 画面でDynamics CRM > user_impersonationを追加します。
+1. SharePointのアプリカタログに[spfx-dfp-explorer.sppkg](https://github.com/MickNabewata/spfx-dfp-explorer/tree/master/sharepoint/solution)をアップロードします。   
+1. 任意のSharePointサイトで「spfx-dfp-explorer」のアプリを追加します。   
+1. サイト内の任意のページで「Dataflex Pro エクスプローラー」Webパーツを追加します。
 
-Description of the extension that expands upon high-level summary above.
+## 機能
 
-This extension illustrates the following concepts:
+- Dataflex Pro Web APIへのリクエスト実行
 
-- topic 1
-- topic 2
-- topic 3
+HTTPメソッド、環境、エンドポイント、要求ヘッダ、要求本文を指定してWeb APIを実行します。
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+- サンプルリクエストの選択
 
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+すぐに実行できるいくつかのサンプルリクエストを選択することができます。
 
-## References
+## 免責事項
 
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+**このコードは、明示または黙示を問わず、特定の目的への適合性、商品性、または非侵害の黙示の保証を含め、いかなる種類の保証もなしに*現状のまま*提供されます。**
