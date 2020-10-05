@@ -1,10 +1,10 @@
-# spfx-dfp-explorer
+# spfx-cds-explorer
 
 [日本語](https://github.com/MickNabewata/spfx-dfp-explorer/blob/master/README.md)
 
 ## Summary
 
-A tool for testing API execution against Dataflex Pro (formerly Common Data Services).   
+A tool for testing API execution against Common Data Service.   
 It also contains some sample requests.
 
 ![Capture](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/en/1.png)
@@ -30,13 +30,13 @@ It also contains some sample requests.
   - **npm run package**
 1. Go to the Azure management portal and select Azure Active Directory> App Registration Screen> All Applications tab, then SharePoint Online Client Extensibility Web Application Principal.   
 1. Add Dynamics CRM> user_impersonation on the API permissions screen.
-1. Upload spfx-dfp-explorer.sppkg to SharePoint app catalog.(The sppkg file will be created in the {SharePoint} folder when you execute the command **npm run package**)   
-1. Add {spfx-dfp-explorer} to your sharepoint site.   
-1. Add {Dataflex Pro Explorer} to your site page.
+1. Upload spfx-cds-explorer.sppkg to SharePoint app catalog.(The sppkg file will be created in the {SharePoint} folder when you execute the command **npm run package**)   
+1. Add {spfx-cds-explorer} to your sharepoint site.   
+1. Add {Common Data Service Explorer} to your site page.
 
 ## Features
 
-- Executing Dataflex Pro Web API
+- Executing Common Data Service Web API
 
 You can input method, environtment, endpoint URL, headers, body to test the API.
 

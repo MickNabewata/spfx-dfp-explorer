@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-dfp-explorer",
+    "name": "spfx-cds-explorer",
     "id": "2fc96487-f99f-4de2-8849-d5fe939db43f",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -15,6 +15,6 @@
     }
   },
   "paths": {
-    "zippedPackage": "solution/spfx-dfp-explorer.sppkg"
+    "zippedPackage": "solution/spfx-cds-explorer.sppkg"
   }
 }

@@ -10,8 +10,8 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
     "group": { "en-us": "Other", "default": "その他" },
-    "title": { "en-us": "Dataflex Pro Explorer", "default": "Dataflex Pro エクスプローラー" },
-    "description": { "en-us": "You can try API execution for Dataflex Pro (former name: Common Data Service).", "default": "Dataflex Pro (旧名：Common Data Service) 向けにAPI実行をお試し頂けます。" },
+    "title": { "en-us": "CDS Explorer", "default": "CDS エクスプローラー" },
+    "description": { "en-us": "You can try API execution for Common Data Service.", "default": "Common Data Service向けにAPI実行をお試し頂けます。" },
     "officeFabricIconFontName": "TestBeakerSolid",
     "properties": {
       "title": ""
