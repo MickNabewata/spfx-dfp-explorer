@@ -7,6 +7,8 @@
 Dataflex Pro (旧名：Common Data Services) に対するAPI実行をテストするためのツールです。   
 サンプルのリクエストもいくつか含まれています。
 
+![画面イメージ](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/jp/1.png)
+
 ## SharePoint Frameworkバージョン
 
 ![バージョン](https://img.shields.io/badge/version-1.11-green.svg)
@@ -38,7 +40,11 @@ Dataflex Pro (旧名：Common Data Services) に対するAPI実行をテスト�
 
 HTTPメソッド、環境、エンドポイント、要求ヘッダ、要求本文を指定してWeb APIを実行します。
 
+![画面イメージ](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/jp/1.png)
+
 - サンプルリクエストの選択
+
+![画面イメージ](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/jp/2.png)
 
 すぐに実行できるいくつかのサンプルリクエストを選択することができます。
 

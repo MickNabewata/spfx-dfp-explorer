@@ -7,6 +7,8 @@
 A tool for testing API execution against Dataflex Pro (formerly Common Data Services).   
 It also contains some sample requests.
 
+![Capture](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/en/1.png)
+
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/badge/version-1.11-green.svg)
@@ -38,9 +40,13 @@ It also contains some sample requests.
 
 You can input method, environtment, endpoint URL, headers, body to test the API.
 
+![Capture](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/en/1.png)
+
 - Sample requests
 
 Select a sample request and run it quickly.
+
+![Capture](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/en/2.png)
 
 ## Disclaimer
 
