@@ -17,11 +17,16 @@ It also contains some sample requests.
   - **npm install**
   - **gulp serve**
 
-## インストール方法
+## How to install
 
+1. Clone this repository
+1. Ensure that you are at the solution folder
+1. in the command-line run:
+  - **npm install**
+  - **npm run package**
 1. Go to the Azure management portal and select Azure Active Directory> App Registration Screen> All Applications tab, then SharePoint Online Client Extensibility Web Application Principal.   
 1. Add Dynamics CRM> user_impersonation on the API permissions screen.
-1. Upload [spfx-dfp-explorer.sppkg](https://github.com/MickNabewata/spfx-dfp-explorer/tree/master/sharepoint/solution) to SharePoint app catalog.   
+1. Upload spfx-dfp-explorer.sppkg to SharePoint app catalog.(The sppkg file will be created in the {SharePoint} folder when you execute the command **npm run package**)   
 1. Add {spfx-dfp-explorer} to your sharepoint site.   
 1. Add {Dataflex Pro Explorer} to your site page.
 

@@ -19,9 +19,14 @@ Dataflex Pro (旧名：Common Data Services) に対するAPI実行をテスト�
 
 ## インストール方法
 
+1. このリポジトリをクローンします。
+1. コマンドプロンプトを起動し、クローンしたリポジトリのフォルダに移動します。
+1. 以下コマンドを実行します。
+  - **npm install**
+  - **npm run package**
 1. Azure管理ポータルにアクセスし、Azure Active Directory > アプリの登録 画面 > すべてのアプリケーション タブ で「SharePoint Online Client Extensibility Web Application Principal」を選択します。   
 1. APIのアクセス許可 画面でDynamics CRM > user_impersonationを追加します。
-1. SharePointのアプリカタログに[spfx-dfp-explorer.sppkg](https://github.com/MickNabewata/spfx-dfp-explorer/tree/master/sharepoint/solution)をアップロードします。   
+1. SharePointのアプリカタログにspfx-dfp-explorer.sppkgをアップロードします。(**npm run package**を実行するとSharePointフォルダ内に作成されます。)   
 1. 任意のSharePointサイトで「spfx-dfp-explorer」のアプリを追加します。   
 1. サイト内の任意のページで「Dataflex Pro エクスプローラー」Webパーツを追加します。
 
