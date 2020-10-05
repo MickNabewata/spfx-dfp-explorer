@@ -44,9 +44,9 @@ HTTPメソッド、環境、エンドポイント、要求ヘッダ、要求本�
 
 - サンプルリクエストの選択
 
-![画面イメージ](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/jp/2.png)
-
 すぐに実行できるいくつかのサンプルリクエストを選択することができます。
+
+![画面イメージ](https://github.com/MickNabewata/spfx-dfp-explorer/blob/images/jp/2.png)
 
 ## 免責事項
 
